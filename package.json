@@ -1,0 +1,19 @@
+{
+  "name": "koa-queryparams",
+  "version": "1.0.0",
+  "description": "A lightweight query parameter middleware for Koa 2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karashiiro/koa-queryparams.git"
+  },
+  "author": "karashiiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karashiiro/koa-queryparams/issues"
+  },
+  "homepage": "https://github.com/karashiiro/koa-queryparams#readme"
+}
