@@ -1,6 +1,6 @@
 module.exports = () => {
     return async (ctx, next) => {
-        const queryParams: string[] = ctx.url.substr(ctx.url.indexOf("?")).split(/[?&]+/g).slice(1);
+        const queryParameters: string[] = ctx.url.substr(ctx.url.indexOf("?")).split(/[?&]+/g).slice(1);
 
         ctx.queryParams = {};
         if (queryParameters) {
